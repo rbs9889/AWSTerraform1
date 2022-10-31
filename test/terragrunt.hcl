@@ -16,7 +16,7 @@ generate "provider" {
 EOF
 }
 inputs = {
-  instance_type = local.env_vars.locals.address
+  address = local.env_vars.locals.address
   token = local.env_vars.locals.token
   tags = {
     Name = "vault"
