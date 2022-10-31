@@ -5,7 +5,7 @@ terraform {
 }
 
 provider "vault" {
-  address = "http://43.205.207.174:8200/"
+  address = "http://0.0.0.0:8200/"
   token = "mysecrettoken"
 }
 
